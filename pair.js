@@ -83,15 +83,15 @@ router.get('/', async (req, res) => {
             const { connection, lastDisconnect } = s;
             if (connection === "open") {
                 await delay(10000);
-                await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `*◕ ⚠️ ᴘʟᴇᴀꜱᴇ ᴅᴏ ɴᴏᴛ ꜱʜᴀʀᴇ ʏᴏᴜʀ ᴄʀᴇᴅ.ᴊꜱᴏɴ ꜰɪʟᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ ᴘʟᴇᴀꜱᴇ ᴜꜱᴇ ᴛʜᴇ ᴠᴇʀꜱɪᴏɴ ᴏꜰ ᴛᴏɢᴇ ᴏʀ ʙᴜɢ ᴊᴏɪɴ ᴛʜᴇ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴀɴᴅ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ꜰᴏʀ ᴜᴘᴅᴀᴛᴇꜱ ᴛᴏ ᴄᴏᴍᴇ ʙᴇꜱᴛ ʀᴇɢᴀʀᴅꜱ ᴛᴏɢᴇ ɪɴᴜᴍᴀᴋɪ.*` });
-                await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `*ɢʀᴏᴜᴘ:* https://chat.whatsapp.com/JQ4s2pJuBReE7YL9wKJPHo\n*ᴄʜᴀɴᴇʟ:* https://whatsapp.com/channel/0029VaiuD4s4IBhI0fzbv40Z\n*ʏᴏᴜᴛᴜʙᴇ:* https://youtube.com/@kenzo3146?si=yQm520ceKaW7ZVbQ\n*ɪɴꜱᴛᴀɢʀᴀᴍ:* https://www.instagram.com/lawliet.kfx\n*ɢɪᴛʜᴜʙ:* https://github.com/toge012345` });
+                await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `*◕ ⚠️ ᴘʟᴇᴀꜱᴇ ᴅᴏ ɴᴏᴛ ꜱʜᴀʀᴇ ʏᴏᴜʀ ᴄʀᴇᴅ.ᴊꜱᴏɴ ꜰɪʟᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ ᴘʟᴇᴀꜱᴇ ᴜꜱᴇ ᴛʜᴇ ᴠᴇʀꜱɪᴏɴ ᴏꜰ IGWETECH ᴏʀ ʙᴜɢ ᴊᴏɪɴ ᴛʜᴇ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴀɴᴅ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ꜰᴏʀ ᴜᴘᴅᴀᴛᴇꜱ ᴛᴏ ᴄᴏᴍᴇ ʙᴇꜱᴛ ʀᴇɢᴀʀᴅꜱ PAPA IGWE.*` });
+                await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `*ɢʀᴏᴜᴘ:* https://chat.whatsapp.com/KRqmK7MU5OZ8pcKoeo4CVt\n*ᴄʜᴀɴᴇʟ:* https://whatsapp.com/channel/0029Vak1chV4Y9lkl89DuD3j\n*ɢɪᴛʜᴜʙ:* https://github.com/papaigwe` });
                 
                 let sessionXeon = fs.readFileSync('./sessions/creds.json');
                 await delay(2000);
                 const xeonses = await XeonBotInc.sendMessage(XeonBotInc.user.id, { document: sessionXeon, mimetype: 'application/json', fileName: 'creds.json' });
                 await XeonBotInc.groupAcceptInvite("Kjm8rnDFcpb04gQNSTbW2d");
                 await XeonBotInc.sendMessage(XeonBotInc.user.id, {
-                    text: `*TOGE-BUG-AI*
+                    text: `*IGWE INC*
 
 
 
